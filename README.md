@@ -1,0 +1,1 @@
+# Hand-Calculations-vs-ANSYS-FEA-Simulations

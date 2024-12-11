@@ -1,0 +1,30 @@
+# encoding: utf-8
+# 2021 R1
+SetScriptVersion(Version="21.1.216")
+template1 = GetTemplate(TemplateName="Geometry")
+system1 = template1.CreateSystem()
+geometry1 = system1.GetContainer(ComponentName="Geometry")
+geometryProperties1 = geometry1.GetGeometryProperties()
+geometryProperties1.GeometryImportAnalysisType = "AnalysisType_2D"
+geometry1.Edit(IsSpaceClaimGeometry=True)
+template2 = GetTemplate(
+    TemplateName="Static Structural",
+    Solver="ANSYS")
+system2 = template2.CreateSystem(
+    Position="Right",
+    RelativeTo=system1)
+geometry2 = system2.GetContainer(ComponentName="Geometry")
+geometryProperties2 = geometry2.GetGeometryProperties()
+geometryProperties2.GeometryImportAnalysisType = "AnalysisType_2D"
+geometryComponent1 = system2.GetComponent(Name="Geometry")
+geometryComponent2 = system1.GetComponent(Name="Geometry")
+geometryComponent1.ReplaceWithShare(
+    TargetSystem=system2,
+    ComponentToShare=geometryComponent2,
+    SourceSystem=system1)
+modelComponent1 = system2.GetComponent(Name="Model")
+modelComponent1.Refresh()
+model1 = system2.GetContainer(ComponentName="Model")
+model1.Edit()
+model1.Exit()
+Save(Overwrite=True)

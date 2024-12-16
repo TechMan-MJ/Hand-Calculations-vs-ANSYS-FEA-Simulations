@@ -1,0 +1,5 @@
+# encoding: utf-8
+# 2021 R1
+SetScriptVersion(Version="21.1.216")
+Save(Overwrite=True)
+Open(FilePath="C:/Users/xie/Desktop/STRESS ANALYSIS/hooke's law application in two Rod/ANSYS Files/Hooke's law application in two Rod.wbpj")

@@ -1,0 +1,58 @@
+/COM,ANSYS RELEASE 2021 R1           BUILD 21.1      UP20201109       15:34:01
+
+ *** WARNING ***                         CP =       0.156   TIME= 15:34:02
+ Element shape checking is currently inactive.  Issue SHPP,ON or         
+ SHPP,WARN to reactivate, if desired.                                    
+
+ *** WARNING ***                         CP =       0.156   TIME= 15:34:02
+ MPC184 elements are being used in the current analysis and the          
+ NLGEOM,ON command has not been used.  Thus, only linearized behavior    
+ will be considered.  If finite rotation and large deflection effects    
+ are to be considered, please use the NLGEOM,ON command.                 
+
+ *** WARNING ***                         CP =       0.156   TIME= 15:34:02
+ Material number 8 (used by element 35) should normally have at least    
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =       0.172   TIME= 15:34:02
+ An internal boundary condition has been imposed on node 70, degree of   
+ freedom 1 of the element 38.  This may cause an ill-condition for the   
+ solver.  Please check all MPC based elements having boundary            
+ conditions.                                                             
+
+ *** WARNING ***                         CP =       0.172   TIME= 15:34:02
+ An internal boundary condition has been imposed on node 70, degree of   
+ freedom 2 of the element 38.  This may cause an ill-condition for the   
+ solver.  Please check all MPC based elements having boundary            
+ conditions.                                                             
+
+ *** WARNING ***                         CP =       0.172   TIME= 15:34:02
+ An internal boundary condition has been imposed on node 70, degree of   
+ freedom 3 of the element 38.  This may cause an ill-condition for the   
+ solver.  Please check all MPC based elements having boundary            
+ conditions.                                                             
+
+ *** WARNING ***                         CP =       0.172   TIME= 15:34:02
+ An internal boundary condition has been imposed on node 70, degree of   
+ freedom 4 of the element 38.  This may cause an ill-condition for the   
+ solver.  Please check all MPC based elements having boundary            
+ conditions.                                                             
+
+ *** WARNING ***                         CP =       0.172   TIME= 15:34:02
+ An internal boundary condition has been imposed on node 70, degree of   
+ freedom 5 of the element 38.  This may cause an ill-condition for the   
+ solver.  Please check all MPC based elements having boundary            
+ conditions.                                                             
+
+ *** WARNING ***                         CP =       0.172   TIME= 15:34:02
+ An internal boundary condition has been imposed on node 70, degree of   
+ freedom 6 of the element 38.  This may cause an ill-condition for the   
+ solver.  Please check all MPC based elements having boundary            
+ conditions.                                                             
+
+ *** WARNING ***                         CP =       0.172   TIME= 15:34:02
+ Pivoting has been activated for the Distributed Sparse Matrix Solver .  
+ The memory required may greatly exceed the predicted amount.  In that   
+ event, use the DSPOPTION command to change the memory mode and/or       
+ memory size used by the Distributed Sparse Matrix Solver.               
